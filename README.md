@@ -51,4 +51,15 @@ export default tseslint.config({
     ...reactDom.configs.recommended.rules,
   },
 })
-```
+
+// Details:-
+
+// 1. This project was created with react and typescript and for styling i have used tailwind css and MaterialUI and for the table 
+// have used MaterialUI-table and AGGrid Table for the calculations of the data with a cross join of Stores and
+// SKUs along the rows, and Calendar along the columns. For Authentication i have used Clerk where yu can login and singnup
+// with your email and password and also with google and github.
+
+// 2. The challenges that i have faced are the fetching data in the AGGrrid Table and exporting the data in the excel file and the
+// calculation of the Gross Sales and the Gross Margin. These challenges are still in progress and i am working on them.
+
+// 3.If i have more 4 hours i would write more unit tests for critical components and integration tests for major workflows, especially edge cases and error handling, and i would do this because comprehensive tests increase confidence in code reliability and reduce the risk of regressions during future updates.
