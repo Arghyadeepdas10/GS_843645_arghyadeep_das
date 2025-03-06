@@ -24,7 +24,7 @@ interface RowData {
   skuName: string;
   price: number;
   cost: number;
-  [key: string]: any; // Dynamic fields for calendar weeks
+  [key: string]: any;
 }
 
 export default function Planning() {
@@ -52,7 +52,6 @@ export default function Planning() {
     setRowData(rows);
   }, [stores, skus]);
 
-  // Generate column definitions
   useEffect(() => {
     const calendarColumns: any[] = [];
     const weeksByMonth: Record<string, string[]> = {

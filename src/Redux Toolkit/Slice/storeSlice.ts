@@ -1,14 +1,14 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 interface Store {
-  id: number; // Unique identifier for the store
-  name: string; // Name of the store
-  city: string; // City where the store is located
-  state: string; // State where the store is located
+  id: number; 
+  name: string; 
+  city: string; 
+  state: string; 
 }
 
 interface StoreState {
-  stores: Store[]; // Array of stores
+  stores: Store[];
 }
 
 const initialState: StoreState = {

@@ -16,8 +16,7 @@ export default function Stores() {
 
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const stores = useSelector((state: any) => state.store.stores); // Using `any` for state typing.
-
+  const stores = useSelector((state: any) => state.store.stores);
   const handleOpen = (index: number | null = null) => {
     setEditIndex(index);
     if (index !== null) {
